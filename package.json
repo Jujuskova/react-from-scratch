@@ -10,14 +10,23 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "prettier": "^1.19.1",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
     "start": "webpack-dev-server --mode=development --open",
-    "build": "webpack-dev-server --mode=production"
+    "build": "webpack-dev-server --mode=production",
+    "lint": "eslint src --fix"
   },
   "dependencies": {
     "react": "^16.12.0",
