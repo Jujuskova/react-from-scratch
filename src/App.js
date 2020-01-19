@@ -1,5 +1,12 @@
 import React from 'react'
+import Snackbar from './components/Snackbar'
 
-const App = () => <h1>Hello World</h1>
+const App = () => {
+  return (
+    <Snackbar
+      message="This is a message from my snackbar"
+    />
+  )
+}
 
 export default App

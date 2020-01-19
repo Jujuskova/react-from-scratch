@@ -10,6 +10,9 @@
     "react/jsx-filename-extension": "off",
     "react/destructuring-assignment": "warn",
     "import/prefer-default-export": "off",
+    "react/default-props-match-prop-types": [
+      "error", { "allowRequiredDefaults": true }
+    ],
     "import/no-cycle": [
       2,
       {
